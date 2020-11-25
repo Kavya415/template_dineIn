@@ -1,0 +1,516 @@
+body, html {
+	font-family: 'Kaushan Script', cursive;
+	width:100%;
+	height:100%;
+	color:#666;
+}
+
+ul {	
+	padding:0;	
+}
+
+a {	
+	color:#ccad52;
+}
+
+a:hover, a:focus {
+	text-decoration:none;
+}
+
+.overlay {
+	background:rgba(0,0,0,0.7);
+}
+
+hr {
+	width:15%;
+	height:3px;
+	text-align:center;
+	background:#ccad52;
+}
+
+
+/* Navigation */
+#navigation {
+	padding:20px;
+	transition:all 1s;	
+}
+
+#navigation .navbar-right {
+	margin-right:1%;
+}
+
+#navigation.navbar-default {
+	background-color:rgba(248, 248, 248, 0);
+	border-color:transparent;
+}
+
+#navigation a.navbar-brand {
+	color:#ccad52;
+	font-size:38px;
+}
+
+#navigation.navbar-default .navbar-nav > li > a {
+	color:#ccad52;
+	font-size:18px;
+	margin:0 10px;
+}
+
+.navbar-toggle {
+	border-radius:0;
+}
+
+.navbar-default .navbar-toogle:hover, .navbar-default .navbar-toggle:focus {
+	background-color:#ccad52;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	border-bottom: 2px solid #ccad52;
+	background-color: transparent;
+}
+
+.on {
+	padding:0;
+	background-color:#222 !important;
+}
+
+
+/* Main Section */
+.introduction-main {
+	background:url(../images/bg1.jpg) no-repeat center center;
+	width:100%;
+	padding:0;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+}
+
+.introduction-main h1 {
+	color:white;
+	font-size:90px;
+	margin-bottom:10px;
+	margin-top:-3.5%;
+}
+
+.introduction-main .introduction-text {
+	text-align:center;
+	margin-top:20%;
+	margin-bottom:20%;
+}
+
+.introduction-main p {
+	font-size:24px;
+	margin-bottom:3%;
+	color:rgba(255,255,255,0.6);
+}
+
+.introduction-main #sub2 {
+	font-size:18px;
+	margin-bottom:0;
+}
+
+.container-fluid {
+	padding:0;
+	margin:0;
+}
+
+
+/* About Section */
+#about {
+	background:(246,246,246,0.8);	
+}
+
+#about .row {
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+#about h2 {
+	color:black;
+	font-size:40px;
+}
+
+#about .image-left {
+	margin:0 auto;
+	max-width:400px;
+	margin-left:12%;
+	border:15px solid white;
+	box-shadow:0 0 20px 10px rgba(0,0,0,0.1);
+}
+
+#about .image-right {
+	max-width:450px;
+	border:15px solid white;
+	box-shadow:0 0 20px 10px rgba(0,0,0,0.1);
+}
+
+#about p {
+	font-size:22px;
+}
+
+#about #right-text {
+	text-align:left;
+	margin-top:5%;	
+}
+
+#about #left-text {
+	text-align:right;
+	margin-right:6%;
+	margin-top:5%;
+}
+
+
+/* Specials Section */
+#specials .section-title {
+	background:url(../images/specials/specialsbg.jpg) bottom center no-repeat fixed;
+	background-size:cover;
+}
+
+#specials h2 {
+	color:white;
+	font-size:40px;
+	padding-top:5%;
+}
+
+#specials p {
+	font-size:18px;
+	padding-bottom:4%;
+	color:rgba(246,246,246,0.6);
+}
+
+#specials .nav-tabs {
+	text-align:center;
+	border-bottom:0;
+	margin:5% 0;
+}
+
+#specials .nav-tabs > li {
+	float:none;
+	display:inline-block;
+	zoom:1;
+}
+
+#specials .nav-tabs > li > a {
+	font-size:26px;
+	font-weight:550;
+	color:black;
+	margin:0 20px;
+}
+
+#specials .nav-tabs > li > a:hover {
+	cursor:pointer;
+	border-color:transparent;
+	background-color:transparent;
+	color:rgba(0,0,0,0.5);
+	border-bottom:4px solid rgba(0,0,0,0.5);
+}
+
+#specials .nav-tabs > li > a:active {
+	color:#ccad52;
+	cursor:pointer;
+	border-color:transparent;
+	border-bottom:4px solid #ccad52;
+	background-color:transparent;
+	
+}
+
+#specials .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	border:none;
+	color:#ccad52;
+	background-color:transparent;
+	border-bottom:4px solid #ccad52;
+}
+
+#specials .spesials-section {
+	margin:0 20px 80px;
+}
+
+#specials .specials-section img {
+	width:180px;
+}
+
+#specials .specials-section .media-body {
+	padding-left:3%;
+}
+
+#specials .specials-section h3 {
+	color:black;
+	font-size:30px;
+}
+
+#specials .specials-section p {
+	color:black;
+	padding:0;
+	font-size:16px;
+}
+
+#specials .specials-section .media-heading {
+	border-bottom:3px dotted rgba(0,0,0,0.2);
+	padding-bottom:2%;
+}
+
+#specials .specials-section .price {
+	float:right;
+	margin-top:-9%;
+	margin-right:3%;
+}
+
+
+/* Menu Section */
+#menu {
+	padding:3% 0;
+	background:#222;
+}
+
+#menu h2 {
+	color:white;
+	font-size:40px;
+	padding-top:3%;
+}
+
+#menu p {
+	font-size:18px;
+	padding-bottom:4%;
+	color:rgba(246,246,246,0.6);
+}
+
+#menu .categories {
+	text-align:center;
+	margin-bottom:3%;
+}
+
+#menu .categories-tab li {
+	display:inline-block;
+}
+
+#menu .categories-tab > li > a {
+	font-size:24px;
+	font-weight:550;
+	color:white;
+	margin:0 20px;
+}
+
+#menu .categories-tab > li > a:hover {
+	cursor:pointer;
+	color:rgba(183,155,73,0.5);
+	border-bottom:4px solid rgba(183,155,73,0.2);
+}
+
+#menu .categories-tab > li > a:focus {
+	color:#ccad52;
+	cursor:pointer;
+	border-bottom:4px solid #ccad52;
+}
+
+#menu .categories-tab>li.active>a, .categories-tab>li.active>a:focus, .categories-tab>li.active>a:hover {
+	color:#ccad52;
+	border-bottom:4px solid #ccad52;
+}
+
+#menu .menu-item {
+	margin:2% 0;
+}
+
+#menu .hover-img {
+	position:relative;
+	overflow:hidden;
+}
+
+#menu .hover-img .caption {
+	color:white;
+	text-align:center;
+	position:absolute;
+	margin:0 auto;
+	opacity:0;
+	width:100%;
+	height:100%;
+	padding:30% 0 0;
+	transition:all 0.65s;
+	background:rgba(0,0,0,0.65);
+}
+
+#menu .hover-img .caption > h4 {
+	opacity:0;
+	color:white;
+	font-size:20px;
+	transition:all 0.4s;
+	transform:translateY(100%);
+	-webkit-transform:translateY(100%);
+}
+
+#menu .hover-img:hover .caption {
+	opacity:1;
+}
+
+#menu .hover-img:hover .caption > h4 {
+	opacity:1;
+	transform:translateY(0);
+	-webkit-transform:translateY(0);
+	-webkit-backface-visibility:hidden;
+}
+
+.lightcase-icon-next:before {
+    content: '\f138';
+}
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+	z-index: 2
+}
+.isotope-hidden.isotope-item {
+	z-index: 1
+}
+.isotope, .isotope .isotope-item {
+	/* change duration value to whatever you like */
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+.isotope-item {
+	margin-right: -1px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.isotope {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	transition-property: height, width;
+}
+.isotope .isotope-item {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform, opacity;
+	transition-property: transform, opacity;
+}
+
+
+/* Chefs Section */
+#chefs h2 {
+	color:black;
+	font-size:40px;
+}
+
+#chefs p {
+	font-size:18px;
+	padding-bottom:10%;
+	color:rgba(0,0,0,0.7);
+}
+
+#chefs {
+	padding:60px 0 80px 0;
+}
+
+#chefs .row img {
+	text-align:center;
+}
+
+#chefs .row .media-body {
+	text-align:left;
+}
+
+#chefs .media-body p {
+	font-size:16px;
+}
+
+#chefs .row .media-heading {
+	color:black;
+	font-size:18px;
+}
+
+
+/* Reservation Section */
+#contact-reservation .title {
+	margin:0;
+	background:url(../images/reservationbg.jpg) bottom center no-repeat fixed;
+	background-size:cover;
+}
+
+#contact-reservation .title h2 {
+	color:#ccad52;
+	padding-top:4%;
+	padding-bottom:3%;
+}
+
+#contact-reservation .title span {
+	font-size:24px;
+}
+
+.address h3, .timings h3, .contact h3 {
+	color:black;
+	font-size:28px;
+} 
+
+
+/* Copyright Section */
+.copyrights {
+	padding: 15px 0;
+	margin-top: 50px;
+	background: #262626;
+}
+
+.social {
+	margin: 20px 0 40px 0;
+}
+
+.social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.social i.fa {
+	font-size: 26px;
+	padding: 4px;
+	color: #ccad52;
+	transition: all 0.3s;
+}
+
+.social i.fa:hover {
+	color: #fff;
+}
+
+.copyrights p {
+	font-size:18px;
+}
+
+
+
+
+/* Media Queries */
+@media (max-width: 430px) {	
+	body {
+		overflow-x:hidden;
+	}
+	
+	.introduction-main h1 {
+		font-size:45px;
+	}
+	
+	#about .image-left {
+		max-width:300px;
+		margin-left:0%;
+	}
+	
+	#about .image-right {
+		max-width:320px;
+	}
+	
+	#about h2, #specials h2, #menu h2, #chefs h2, #contact-reservation .title h2 {
+		font-size:25px;
+	}
+	
+	#specials .specials-section h3 {
+		font-size:20px;
+	}
+	
+	#specials .specials-section .media-body {
+		margin-left:1%;
+	}
+	
+	.map-container iframe {
+		max-width:350px;
+	}
+}
